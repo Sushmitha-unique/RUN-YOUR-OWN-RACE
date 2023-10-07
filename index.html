@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JEE Mains Preparation</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        .background-image {
+            background-image: url('logo.png'); 
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 100vh;
+        }
+        .left-side-container {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 30px;
+            border-radius: 20px;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .quote-text {
+            font-size: 28px;
+            font-weight: bold;
+            color: #007bff; 
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .animated-text {
+            animation: fadeInUp 1s ease-in-out;
+        }
+        .subject-card {
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .subject-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(206, 74, 14, 0.2);
+        }
+
+        /* Custom styles for the text below the cards */
+        .card-title {
+            font-size: 20px;
+        }
+
+        .card-text {
+            font-size: 16px;
+            color: #555;
+        }
+    </style>
+   </head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img src="logo.png" class="rounded-circle" alt="logo" class="float-start" width="50px">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item-primary">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+            <li class="nav-item-primary">
+              <a class="nav-link" href="#">JEE Main Exam Info</a>
+            </li>
+            <li class="nav-item-primary">
+              <a class="nav-link" href="#">Study Resources</a>
+            </li>
+            <li class="nav-item-primary">
+              <a class="nav-link" href="#">Strategy & Tips</a>
+            </li>
+            <li class="nav-item-primary">
+                <a class="nav-link" href="#">Blog/Articles</a>
+            </li>
+            <li class="nav-item-primary">
+                <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <form class="form-inline my-2 my-lg-0">
+           <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+           <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        <form>
+            <button type="submit" class="btn btn-outline-primary"><a href="#">Login</a></button>
+        </form>
+        <form>
+            <button type="submit" class="btn btn-outline-primary"><a href="#">Sign up</a></button>
+        </form>
+    </nav>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="left-side-container animated-text">
+                            <div class="card subject-card">
+                                <div class="jumbotron">
+                                    <h1>WELCOME..............!</h1>
+                                </div>
+                                <h1 class="quote-text">Your journey to JEE Main Success starts here</h1>
+                            <p class="quote-text">Take that first step with <strong style="color: black;">RUN YOUR OWN RACE</strong>.</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 background-image">
+                     </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card subject-card">
+                            <img src="maths.png" class="card-img-top" alt="Maths">
+                            <div class="card-body">
+                                <h5 class="card-title">Maths</h5>
+                                <p class="card-text">Explore various topics in mathematics and enhance your skills.</p>
+                                <a href="#" class="btn btn-primary">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card subject-card">
+                            <img src="physics.png" class="card-img-top" alt="Physics">
+                            <div class="card-body">
+                                <h5 class="card-title">Physics</h5>
+                                <p class="card-text">Dive into the world of physics and study fundamental principles.</p>
+                                <a href="#" class="btn btn-primary">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card subject-card">
+                            <img src="chemistry.png" class="card-img-top" alt="Chemistry">
+                            <div class="card-body">
+                                <h5 class="card-title">Chemistry</h5>
+                                <p class="card-text">Discover the wonders of chemistry and its applications.</p>
+                                <a href="#" class="btn btn-primary">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<section id="student-journey" class="position-relative">
+    <div class="container">
+        <h2 class="heading-journey">
+            "Student Journey"
+            <span> To Sucess with RUN YOUR OWN RACE</span>
+        </h2>
+        <div class="student-journey-slider">
+        <ul class="clear clearfix" id="student-journey-home">
+            <li>
+                <h3>RYOR e=lectures</h3>
+                <p>emgaging video letures with best teachers</p>
+                <img class="lazyload" src="maths.png" alt="">
+            </li>
+        </ul>
+        </div>
+    </div>
+
+</section>
+</body>
+</html>
