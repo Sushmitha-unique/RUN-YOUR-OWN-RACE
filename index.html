@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JEE Mains Preparation</title>
+    <link rel=”stylesheet” href=”https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css”/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -43,16 +45,14 @@
         .animated-text {
             animation: fadeInUp 1s ease-in-out;
         }
-        .subject-card {
+        .subject-card1 {
             transition: transform 0.2s, box-shadow 0.2s;
         }
 
-        .subject-card:hover {
+        .subject-card1:hover {
             transform: scale(1.05);
             box-shadow: 0 4px 8px rgba(206, 74, 14, 0.2);
         }
-
-        /* Custom styles for the text below the cards */
         .card-title {
             font-size: 20px;
         }
@@ -61,115 +61,255 @@
             font-size: 16px;
             color: #555;
         }
+        .s1{
+            background-color: #b3c6ff;
+            display: flex;
+        }
+        .subscribe{
+            background-color:#b3c6ff ;
+            text-align: center;
+        }
     </style>
    </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <img src="logo.png" class="rounded-circle" alt="logo" class="float-start" width="50px">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item-primary">
-              <a class="nav-link" href="#">About us</a>
-            </li>
-            <li class="nav-item-primary">
-              <a class="nav-link" href="#">JEE Main Exam Info</a>
-            </li>
-            <li class="nav-item-primary">
-              <a class="nav-link" href="#">Study Resources</a>
-            </li>
-            <li class="nav-item-primary">
-              <a class="nav-link" href="#">Strategy & Tips</a>
-            </li>
-            <li class="nav-item-primary">
-                <a class="nav-link" href="#">Blog/Articles</a>
-            </li>
-            <li class="nav-item-primary">
-                <a class="nav-link" href="#">Contact Us</a>
-            </li>
-          </ul>
-        </div>
-        <form class="form-inline my-2 my-lg-0">
-           <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-           <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
-        </form>
-        <form>
-            <button type="submit" class="btn btn-outline-primary"><a href="#">Login</a></button>
-        </form>
-        <form>
-            <button type="submit" class="btn btn-outline-primary"><a href="#">Sign up</a></button>
-        </form>
-    </nav>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="left-side-container animated-text">
-                            <div class="card subject-card">
-                                <div class="jumbotron">
-                                    <h1>WELCOME..............!</h1>
-                                </div>
-                                <h1 class="quote-text">Your journey to JEE Main Success starts here</h1>
-                            <p class="quote-text">Take that first step with <strong style="color: black;">RUN YOUR OWN RACE</strong>.</p>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 background-image">
-                     </div>
-                </div>
+   <div class="container-fluid">
+    <div class="nav">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <img src="uplogo.png" class="rounded-circle" alt="logo" class="float-start" width="50px">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item-primary">
+                  <a class="nav-link" href="#">About us</a>
+                </li>
+                <li class="nav-item-primary">
+                  <a class="nav-link" href="#">JEE Main Exam Info</a>
+                </li>
+                <li class="nav-item-primary">
+                  <a class="nav-link" href="#">Strategy & Tips</a>
+                </li>
+                <li class="nav-item-primary">
+                    <a class="nav-link" href="#">Blog/Articles</a>
+                </li>
+                <li class="nav-item-primary">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+              </ul>
             </div>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card subject-card">
-                            <img src="maths.png" class="card-img-top" alt="Maths">
-                            <div class="card-body">
-                                <h5 class="card-title">Maths</h5>
-                                <p class="card-text">Explore various topics in mathematics and enhance your skills.</p>
-                                <a href="#" class="btn btn-primary">Explore</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card subject-card">
-                            <img src="physics.png" class="card-img-top" alt="Physics">
-                            <div class="card-body">
-                                <h5 class="card-title">Physics</h5>
-                                <p class="card-text">Dive into the world of physics and study fundamental principles.</p>
-                                <a href="#" class="btn btn-primary">Explore</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card subject-card">
-                            <img src="chemistry.png" class="card-img-top" alt="Chemistry">
-                            <div class="card-body">
-                                <h5 class="card-title">Chemistry</h5>
-                                <p class="card-text">Discover the wonders of chemistry and its applications.</p>
-                                <a href="#" class="btn btn-primary">Explore</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-<section id="student-journey" class="position-relative">
-    <div class="container">
-        <h2 class="heading-journey">
-            "Student Journey"
-            <span> To Sucess with RUN YOUR OWN RACE</span>
-        </h2>
-        <div class="student-journey-slider">
-        <ul class="clear clearfix" id="student-journey-home">
-            <li>
-                <h3>RYOR e=lectures</h3>
-                <p>emgaging video letures with best teachers</p>
-                <img class="lazyload" src="maths.png" alt="">
-            </li>
-        </ul>
-        </div>
+            <form class="form-inline my-2 my-lg-0">
+               <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+               <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <form>
+                <button type="submit" class="btn btn-outline-primary"><a href="#">Login</a></button>
+            </form>
+            <form>
+                <button type="submit" class="btn btn-outline-primary"><a href="#">Sign up</a></button>
+            </form>
+        </nav>
     </div>
-
-</section>
+   </div>
+   <div class="s1">
+    <div class="container-fluid p-5 ">
+        <h1>Empowering students to succeed in jee mains Exam</h1>
+        <p>At RUN YOUR OWN RACE, We provide comprehensive and innovative
+            elearning solutions to help students for JEE Main Exam. Our exam prep,subject-wise study
+            and practice tests ensure students are well-equipped to achieve there goals
+        </p> 
+    </div>
+        <div class="img1">
+            <img src="study.jpg" alt="study"  class="img-thumbnail" >
+        </div>
+   </div>
+   <div>
+    <br>
+    <hr>
+    <br>
+   </div>
+   <div class="h1">
+    <h1>SERV<Span style="color: #007bff;">ICES</Span></h1>
+   </div>
+            <div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="card subject-card1">
+                                <img src="Screenshot (231).png" class="card-img-top" alt="exampre">
+                                <div class="card-body">
+                                    <h5 class="card-title">Exam Prep</h5>
+                                    <p class="card-text">Our Exam prep service offers comprehensive study material, mock exams to help studens prepare effectively  and confidently for their exams.</p>
+                                    <a href="#" class="btn btn-primary">Explore</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card subject-card1">
+                                <img src="Screenshot (232).png" class="card-img-top" alt="Practice">
+                                <div class="card-body">
+                                    <h5 class="card-title">Practice Tests</h5>
+                                    <p class="card-text">Our practice tests are designed to simulate the actual exam environment and help students identify their strengths and weaknesses</p>
+                                    <a href="#" class="btn btn-primary">Explore</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card subject-card1">
+                                <img src="Screenshot (233).png" class="card-img-top" alt="subject-wise">
+                                <div class="card-body">
+                                    <h5 class="card-title">Subject- wise study material</h5>
+                                    <p class="card-text">Our subject- wise study material is designed to provide students with deep understanding of each subject ,covering all the concepts and topics that sre relevent </p>
+                                    <a href="#" class="btn btn-primary">Explore</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+            <div>
+                <br>
+                <hr>
+                <br>
+            </div>
+            <div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="happyuser.jpg" alt="happy" class="img-thumbnail">
+                    </div>
+                    <div class="col-sm-4">
+                        <h2>Feat<Span style="color: #007bff;">ures</Span></h2>
+                        <ul>
+                            <li>Comprehensive Exam Prep</li>
+                            <li>Subject-wise Study Material</li>
+                            <li>Challenging Practice Tests</li>
+                            <li>Detailed Performance Analysis</li>
+                            <li>OnGoing Support</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <h2>Bene<Span style="color: #007bff;">fits</Span></h2>
+                        <ul>
+                            <li>Enhance Exam Performance</li>
+                            <li>Improved Study Efficiency</li>
+                            <li>Reduce Exam stress</li>
+                            <li>Affordable and Accessible</li>
+                            <li>Sustained Partnership</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <br>
+                <hr>
+                <br>
+            </div>
+            <div>
+                <h1>OUR <Span style="color: #007bff;">TEAM</Span></h1>
+                <br>
+                <h3>Meet Our Academic Experts: The Brains Behind RUN YOUR OWN RACE</h3>
+                <br>
+                <br>
+            </div>
+            <div class="Experts">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="card subject-card">
+                            <img src="21121A1215 (1).JPG" class="card-img-top" alt="sushmitha">
+                            <div class="card-body">
+                                <h5 class="card-title" style="text-align: center;">B.Sushmitha</h5>
+                                <p style="color: #007bff; text-align: center;">Cheif Executive</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card subject-card">
+                            <img src="21121A1267.jpg" height="300px" class="card-img-top" alt="Practice">
+                            <div class="card-body">
+                                <h5 class="card-title" style="text-align: center;">M.Sravya</h5>
+                                <p style="color: #007bff; text-align: center;">Content Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card subject-card">
+                            <img src="21121A1228.JPG" class="card-img-top" alt="subject-wise">
+                            <div class="card-body">
+                                <h5 class="card-title" style="text-align: center;">G.Venkata Kishore</h5>
+                                <p style="color: #007bff; text-align: center;">Query Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <br>
+                <hr>
+                <br>
+            </div>
+            <div>
+                <h1>Client <span style="color: #007bff;">Testimonials</span></h1>
+                <p>Hear What Our Clients Have TO Say About US</p>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <p>RUN YOUR OWN RACE provides the perfect platform for JEE Mains exam preparation .
+                            Their subject-wise study materials and exam preparation modules
+                        are comprehensive and user friendly </p>
+                        <h4 style="color:#007bff">B.Sathish Reddy</h4>
+                    </div>
+                    <div class="col-sm-6">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <p>RUN YOUR OWN RACE is the best e-learning platform for JEE Mains exam preparation.
+                            Their practice tests are challenging and provide detailed feedback,
+                        which helped me to improve my performance significantly </p>
+                        <h4 style="color:#007bff">K.Nithish</h4>
+                    </div>
+               </div>
+               <br>
+               <div>
+                    <div class="col-sm-6">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <p>RUN YOUR OWN RACE helped me to achieve my goal of geeting into a top engineering 
+                            college.Their exam preparation material and practice tests are excellent, and their 
+                            analysis helped me to focus on my weakness
+                        </p>
+                        <h4 style="color:#007bff">K.Manish</h4>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <br>
+                <hr>
+                <br>
+            </div>
+            <div class="subscribe">
+              <fieldset style="border: none;">
+                <h1>Subscribe to Newsletter</h1>
+              <p>Enter your email address to register to our newsletter subscription!</p>
+              <input type="email" placeholder="Email Address" required><br><br>
+              <button class="btn btn-primary">Send</button>
+              </fieldset>
+            </div>
+            <div>
+                <br>
+                <hr>
+                <br>
+            </div>
 </body>
 </html>
