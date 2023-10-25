@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Material - Run Your Own Race</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+        font-family: 'Arial', sans-serif;
+            background-color: #b3c6ff;
+            color: #333;
+        }
+        header {
+            background-color: #2b2b2b;
+            color: #fff;
+            text-align: center;
+            padding: 40px 0;
+        }
+         .containers {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap; 
+            margin: 20px;
+        }
+        .container {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            width: 30%; 
+            height: 300px; 
+            text-align: center;
+            margin: 1%; 
+            transition: transform 0.3s, box-shadow 0.3s; 
+            cursor: pointer; 
+        }
+            
+        
+        .container:hover {
+            transform: translateY(-10px); 
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+        }
+
+
+        h1 {
+            font-size: 24px;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .container img {
+            max-width: 100px;
+            max-height: 100px;
+        }
+        .study-button {
+            background-color: #4169E1;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            text-decoration: none;
+        }
+
+        .study-button:hover {
+            background-color: #e64a19;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a href="index.html"><img src="uplogo.png" class="rounded-circle" alt="logo" class="float-start" width="50px"></a>
+    </nav>
+    <header>
+        <h1>Mathematics Study Materials</h1>
+    </header>
+    <div class="containers">
+        <div class="container">
+            <img src="sets.jpg" alt="Sets and Relations Image">
+            <h2>Sets and Relations</h2><br>
+            <p>Explore the study material for Sets and Relations.</p><br>
+            <a class="study-button" href="setsrelations.pdf" target="_blank">Download</a>
+        </div>
+        <div class="container">
+            <img src="matrix.jpg" alt="Matrices Image">
+            <h2>Matrices and Determinants</h2><br>
+            <p>Access the study material for Matrices and determinants</p><br>
+            <a class="study-button" href="matrix1.pdf" target="_blank">Download</a>
+        </div>
+        <div class="container">
+            <img src="mathematicalinduction.jpg" alt="Mathematical Induction Image">
+            <h2>Mathematical Induction</h2><br>
+            <p>Get the study material for Mathematical Induction.</p><br>
+            <a class="study-button" href="mathematicalinduction.pdf" target="_blank">Download</a>
+        </div>
+        <div class="container">
+            <img src="sequence.jpg" alt="Sequence and Series Image">
+            <h2>Sequence and Series</h2><br>
+            <p>Explore the study material for Sequence and Series.</p><br>
+            <a class="study-button" href="seq.pdf" target="_blank">Download</a>
+        </div>
+        <div class="container">
+            <img src="integral.jpg" alt="Integral Calculus Image">
+            <h2>Integral Calculus</h2><br>
+            <p>Access the study material for Integral Calculus.</p><br>
+            <a class="study-button" href="integral.pdf" target="_blank">Download</a>
+        </div>
+        <div class="container">
+            <img src="coordinategeo.jpg" alt="Coordinate Geometry Image">
+            <h2>Coordinate Geometry</h2><br>
+            <p>Get the study material for Coordinate Geometry.</p><br>
+            <a class="study-button" href="coordinate.pdf" target="_blank">Download</a>
+        </div>
+    </div>
+</body>
+</html>
