@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel=”stylesheet” href=”https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css”/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+         header {
+            background-color: #fff;
+            color: #2b2b2b;
+            display: flex;
+            align-items: center;
+            padding: 20px;
+        }
+        h1{
+            font-size:30px;
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight: 600;
+        }
+            
+        .logo {
+            width: 60px;
+            height: 40px; 
+            background-color:#2b2b2b; 
+            border-radius:50%; 
+            margin-right: 20px; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo img {
+            width: 100%; 
+            height: 100%;
+            border-radius: 50%; 
+        }
+
+        .title {
+            flex: 1; 
+            text-align: center;
+        }
+        .subject-card1 {
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-bottom: 20px; 
+        }
+
+        .subject-card1:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(206, 74, 14, 0.2);
+        }
+       .card-text {
+            font-size: 16px;
+            color: #555;
+            text-align: justify; 
+        }
+        .card-title {
+            font-size: 20px;
+            text-align: left; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <a href="index.html"><img src="uplogo.png" alt="Logo"></a>
+        </div>
+        <div class="title">
+         <h1 style="font-family: 10px;">Subject-Wise Study Materials</h1>
+        </div>
+    </header><br><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card subject-card1 mb-4">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="mathssub.png" class="card-img-top" alt="maths" width="150" height="250">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title text-left">Mathematics</h5>
+                                <p class="card-text">Mathematics is not just a subject; it's the cornerstone of your JEE Mains success. From algebra to calculus, mastering mathematical concepts is essential for excelling in this competitive examination. Dive into the world of numbers, equations, and problem-solving to strengthen your JEE Mains preparation. Explore our comprehensive resources to hone your mathematical skills and ensure a solid foundation for your engineering aspirations.</p>
+                                <a href="mathsstudy.html" class="btn btn-primary center">Study Materials</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card subject-card1 mb-4">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="physicssub.jpg" class="card-img-top" alt="Physics" width="150" height="250">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title text-left">Physics</h5>
+                                <p class="card-text">Physics is more than just laws and theories; it's the key to cracking JEE Mains. Your understanding of motion, energy, and the fundamental principles of physics will shape your success in this highly competitive exam. Immerse yourself in the universe of physics, from mechanics to electromagnetism, and prepare for JEE Mains like never before. Explore our resources, conduct experiments, and conquer the complexities of the physical world.</p>
+                                <a href="physicsstudy.html" class="btn btn-primary center">Study Materials</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card subject-card1 mb-4">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="chemistrysub.jpg" class="card-img-top" alt="Chemistry" width="150" height="250">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title text-left">Chemistry</h5>
+                                <p class="card-text">Chemistry isn't just about reactions; it's the secret to acing JEE Mains. Understanding the elements, compounds, and chemical reactions is crucial for your success in this challenging exam. Step into the world of atoms, molecules, and the periodic table to fortify your JEE Mains preparation. Our chemistry resources are tailored to help you master the concepts and applications you need to excel in your pursuit of engineering dreams.</p>
+                                <a href="chemistrystudy.html" class="btn btn-primary center">Study Materials</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
