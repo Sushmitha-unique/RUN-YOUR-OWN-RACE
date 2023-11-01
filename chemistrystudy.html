@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Material - Run Your Own Race</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #b3c6ff;
+            color: #333;
+        }
+        header {
+            background-color: #2b2b2b;
+            color: #fff;
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        .containers {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+
+        .container {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            width:30%; 
+            height: 300px;
+            text-align: center;
+            margin:1%;
+            transition: transform 0.3s, box-shadow 0.3s; 
+            cursor: pointer; 
+        }
+            
+        
+        .container:hover {
+            transform: translateY(-10px); 
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .container img {
+            max-width: 100px;
+            max-height: 100px;
+        }
+
+        .study-button {
+            background-color: #4169E1;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+           text-decoration: none;
+        }
+        .study-button:hover {
+            background-color: #e64a19;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a href="index.html"><img src="uplogo.png" class="rounded-circle" alt="logo" class="float-start" width="50px"></a>
+    </nav>
+    <header>
+        <h1>Chemistry Study Materials</h1>
+    </header>
+
+    <div class="containers">
+        <div class="container">
+            <img src="atomicstruc.jpg" alt="Atomic Structure Image">
+            <h2>Atomic Structure</h2><br>
+            <p>Explore the study material for Atomic Structure.</p><br>
+            <a class="study-button" href="atomic.pdf" target="_blank">Download</a>
+        </div>
+        <div class="container">
+            <img src="chemical.webp" alt="Chemical Thermodynamics Image">
+            <h2>Chemical Thermodynamics</h2><br>
+            <p>Access the study material for Chemical Thermodynamics.</p><br>
+            <a class="study-button" href="che.pdf" target="_blank">Download</a>
+        </div>
+        <div class="container">
+            <img src="poly1.jpg" alt="polymers Image">
+            <h2>Polymers</h2><br>
+            <p>Get the study material for polymers.</p><br><br>
+            <a class="study-button" href="polymers.pdf" target="_blank">Download</a>
+        </div>
+
+        <div class="container">
+            <img src="hydro.jpg" alt="Hydrocarbons Image">
+            <h2>Hydrocarbons</h2><br>
+            <p>Explore the study material for  Hydrocarbons.</p><br><br>
+            <a class="study-button" href="hydro.pdf" target="_blank">Download</a>
+        </div>
+
+        <div class="container">
+            <img src="organic.jpg" alt="Organic Chemistry Image">
+            <h2>Organic Chemistry</h2><br>
+            <p>Access the study material for Organic Chemistry.</p><br>
+            <a class="study-button" href="org.pdf" target="_blank">Download</a>
+        </div>
+        <div class="container">
+            <img src="chembond.jpg" alt="Chemical Bonding Image">
+            <h2>Chemical Bonding</h2><br>
+            <p>Get the study material for Chemical Bonding.</p><br><br>
+            <a class="study-button" href="chemical.pdf" target="_blank">Download</a>
+        </div>
+        
+    </div>
+</body>
+</html>

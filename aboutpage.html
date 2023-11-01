@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Run Your Own Race</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color:#b3c6ff;
+        }
+        header {
+                
+            color: #fff;
+            text-align: center;
+            padding: 40px 0;
+        }
+        
+        .about-us
+        {
+            display: flex;
+            align-items: center;
+            width:85%;
+            margin:auto;
+
+        }
+        .about-us img{
+            flex:0 35%;
+            max-width: 35%;
+            height: auto;
+        }
+        .content{
+            padding: 35px;
+        }
+        .content p{
+            color: #666;
+            font-size: 18px;
+            line-height: 1.5;
+            margin: 15px 0px;
+            text-align: justify;
+        }
+        button {
+            border: none;
+            outline: 0;
+            padding: 10px 20px;
+            font-size: 18px;
+            color: white;
+            background-color:#4169E1;
+            text-align: center;
+            cursor: pointer;
+            width: 9 rem;
+            border-radius: 4px;
+        }
+ 
+        button:hover {
+               background-color: #1f9405;
+            }
+        @media(max-width:768px){
+            .about-us{
+                flex-direction: column;
+            }
+            .about-us img{
+                flex:0 100%;
+                max-width: 100%;
+            }
+            .content{
+                flex:0 100%;
+                max-width: 100%;
+                padding:15px;
+                
+
+            }
+        }
+        .containers {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+        }
+        .container {
+            flex: 1;
+            background-color:#fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            padding: 20px; 
+            margin: 0 10px;
+            transition: background-color 0.3s; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .container:hover {
+            background-color: #b3c6ff; 
+        }
+
+        h1, h2,h4 {
+            color:black;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .highlight {
+            color: #ff5722;
+            font-weight: bold;
+        }
+        .container + .container {
+            margin-left: 30px;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+ 
+
+  </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a href="index.html"><img src="uplogo.png" class="rounded-circle" alt="logo" class="float-start" width="50px"></a>
+    </nav>
+    <header>
+        <h1 style="font-size:30px;">About Us</h1><br>
+        <h4>RunYourOwnRace is a leading platform....</h3>
+    </header>
+    
+        <section class="about-us">
+            <img src="image3 (1).png">
+            
+            <div class="content">
+                <p>"RunYourOwnRace is your pathway to JEE Mains success. With expert instructors, top-notch study materials, and personalized support, we're here to guide you to the finish line. Join us for a transformative learning experience and ace your JEE Mains exams and reach new heights in your academic career. Your success begins with RunYourOwnRace."</p>
+                <button>Read More...</button>
+            </div>
+        </section><br><br><br>
+        
+    <div class="containers">
+        <div class="container">
+            <h2>Mission</h2><br>
+            <p>Our mission is to empower students with the tools and resources they need to excel in their JEE Main exams. We are committed to providing high-quality education that is flexible, personalized, and supportive.</p>
+        </div>
+
+        <div class="container">
+            <h2>Vision</h2><br>
+            <p>Our vision is to inspire and support students in their pursuit of excellence in the field of engineering and technology. We aim to provide accessible, effective, and personalized education to help every student reach their full potential.</p>
+        </div>
+
+        <div class="container">
+            <h2>Achievements</h2><br>
+            <p>We take pride in the success stories of our students. Over the years, we've helped countless students achieve their dreams and secure admissions in top engineering institutions. Their achievements are a testament to our dedication and the effectiveness of our platform.</p>
+        </div>
+    </div><br><br><br>
+    <footer>
+        <p>© 2023 RunYourOwnRace. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
