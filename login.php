@@ -171,13 +171,13 @@ a.google span{
             <div class="form login">
                 <div class="form-content">
                     <header>Login</header>
-                    <form action="index.html">
+                    <form action="logindb.php"  method="POST">
                         <div class="field input-field">
-                            <input type="email" placeholder="Email" class="input">
+                            <input type="email" placeholder="Email" class="input" id="email" name="email">
                         </div>
 
                         <div class="field input-field">
-                            <input type="password" placeholder="Password" class="password">
+                            <input type="password" placeholder="Password" class="password"  id="password" name="password">
                             <i class='bx bx-hide eye-icon'></i>
                         </div>
 
@@ -186,12 +186,12 @@ a.google span{
                         </div>
 
                         <div class="field button-field">
-                            <button>Login</button>
+                            <button type="submit" id="submit" name="submit">Login</button>
                         </div>
                     </form>
 
                     <div class="form-link">
-                        <span>Don't have an account? <a href="#" class="link signup-link">Signup</a></span>
+                        <span>Don't have an account? <a href="signupdb.php" class="link signup-link">Signup</a></span>
                     </div>
                 </div>
 
@@ -209,22 +209,22 @@ a.google span{
             <div class="form signup">
                 <div class="form-content">
                     <header>Signup</header>
-                    <form action="index.html">
+                    <form action="signupdb.php" method="POST">
                         <div class="field input-field">
-                            <input type="email" placeholder="Email" class="input">
+                            <input type="email" placeholder="Email" class="input" id="email"  name="email">
                         </div>
 
                         <div class="field input-field">
-                            <input type="password" placeholder="Create password" class="password">
+                            <input type="password" placeholder="Create password" class="password" id="password" name="password">
                         </div>
 
                         <div class="field input-field">
-                            <input type="password" placeholder="Confirm password" class="password">
+                            <input type="password" placeholder="Confirm password" class="password" id="confirmpassword" name="confirmpassword">
                             <i class='bx bx-hide eye-icon'></i>
                         </div>
 
                         <div class="field button-field">
-                            <button>Signup</button>
+                            <button type="submit" id="submit" name="submit">Signup</button>
                         </div>
                     </form>
 
