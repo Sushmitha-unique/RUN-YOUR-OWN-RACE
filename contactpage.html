@@ -98,7 +98,7 @@
 <body>
     <header>
         <div class="logo">
-          <a href="index.html"><img src="image3.png" alt="Logo"></a>
+          <a href="index.html"><img src="uplogo.png" alt="Logo"></a>
         </div>
         <div class="title">
          <h1>Contact Us - Run Your Own Race</h1>
@@ -112,11 +112,11 @@
 
     <div class="container contact-form">
         <h2>Contact Form</h2>
-        <form action="#" method="post">
+        <form  method="post">
             <input type="text" name="name" placeholder="Your Name">
             <input type="email" name="email" placeholder="Your Email">
             <textarea name="message" rows="4" placeholder="Your Message"></textarea>
-            <button type="submit">Send Message</button>
+            <button type="submit"  onclick="sub()">Send Message</button>
         </form>
     </div>
 
@@ -125,6 +125,14 @@
         <p>If you prefer, you can also contact us using the information below:</p>
         <p><b>Email:</b> contact@runyourownrace.com</p>
         <p><b>Phone:</b> +123-456-7890</p>
+    </div>
+    <div class="centered-content">
+    <script>
+        function sub()
+        {  
+            document.write("Message successfully send......!");
+        }
+    </script>
     </div>
 </body>
 </html>

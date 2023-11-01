@@ -297,7 +297,7 @@
                 <h1>Subscribe to Newsletter</h1>
               <p>Enter your email address to register to our newsletter subscription!</p>
               <input type="email" placeholder="Email Address" required><br><br>
-              <button class="btn btn-primary">Send</button>
+              <button class="btn btn-primary" onclick="submit()">Send</button>
               </fieldset>
             </div>
             <div>
@@ -305,5 +305,10 @@
                 <hr>
                 <br>
             </div>
+            <script>
+                function submit(){
+                    document.write("You have Successful......! , subscribe to newsletter.");
+                }
+            </script>
 </body>
 </html>
