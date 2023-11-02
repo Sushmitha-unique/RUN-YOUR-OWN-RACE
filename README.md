@@ -42,6 +42,11 @@ To get started with "Run Your Own Race," follow these steps:
 ## Usage
 
 Visit   [https://sushmitha-unique.github.io/RUN-YOUR-OWN-RACE/]    to start using the platform. For specific usage instructions, refer to the platform's documentation.
+ NOTE: Run this on xampp because database connectivity is done using xampp
+    1. database name :student
+    2 Table(relations) names: login  -> columns :📧 email,password
+                              signup            :email,password,confirmpassword 
+                              contact           :name,email,message  
 
 ## Contributing
 
